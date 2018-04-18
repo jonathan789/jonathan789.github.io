@@ -1,0 +1,52 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    padding: 35px;
+    margin-bottom: 10px;
+    background: #ccc;
+  }
+  
+  nav {
+    padding: 35px;
+    margin-bottom: 20px;
+    background: #ccc;
+  }
+  
+ 
+  section {
+    height: 400px;
+    background: green;
+    
+  }
+  
+  article {
+    height: 300px;
+    width: 80%;
+    background: yellow;
+    margin-left: 100px;
+  }
+
+  footer {
+    margin: 100px;  
+    padding: 100px;
+    /* clear: both; */
+    background: #ccc;
+  }
+
+  .hclass {
+    background: red;
+  }
+
+  .pclass {
+    background: blue;
+  }
