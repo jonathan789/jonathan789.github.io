@@ -26,27 +26,46 @@
   section {
     height: 400px;
     background: green;
-    
+    width: 65%;
+    float: left;
   }
   
   article {
-    height: 300px;
-    width: 80%;
+    height: 240px;
+    width: 90%;
     background: yellow;
-    margin-left: 100px;
+    margin: 100px auto 0;
   }
-
-  footer {
-    margin: 100px;  
-    padding: 100px;
-    /* clear: both; */
-    background: #ccc;
-  }
-
+  
+  .container {
+    overflow: hidden;
+    height: 400px;
+    margin: auto;
+   }
+ 
   .hclass {
     background: red;
+    width: 80%;
+    margin: 25px auto 0;
+    height: 65px;
   }
 
   .pclass {
     background: blue;
+    width: 80%;
+    margin: 10px auto 0;
+    height: 65px;
+  }
+
+  aside {
+    width: 33%;
+    float: right;
+    height: 600px;
+    background: cyan;
+  }
+  
+  footer {
+    margin-top: 15px;  
+    padding: 35px;
+    background: #ccc;
   }
